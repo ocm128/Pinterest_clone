@@ -1,6 +1,4 @@
 <!--<p id="notice"><%= notice %></p>  -->
-
-<!-- <h1>Listing Pins</h1> -->
 <div class="panel panel-default">
   <div class="panel-heading"><h2>Listing Pins</h2></div>
   <div class="panel-body">
@@ -18,9 +16,11 @@
       <tr>
         <td><%= pin.description %></td>
         <td><%= link_to 'Show', pin , class: 'btn btn-default'%></td>
-        <td><%= link_to 'Edit', edit_pin_path(pin) , class: 'btn btn-default'%></td>
-        <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' },
-                          class: 'btn btn-warning' %></td>
+        <% if pin.user == current_user %>
+          <td><%= link_to 'Edit', edit_pin_path(pin) , class: 'btn btn-default'%></td>
+          <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' },
+                            class: 'btn btn-warning' %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
