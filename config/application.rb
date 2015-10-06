@@ -22,5 +22,8 @@ module Pinterested
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    # filepicker cloud
+    config.filepicker_rails.api_key = "AClXKRASRQ6D5nhMXCUINz"
   end
 end
