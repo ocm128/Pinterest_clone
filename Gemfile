@@ -25,7 +25,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'paperclip'
+gem 'execjs'
+
+# cloud to upload images and more files
 gem 'filepicker-rails'
+gem 'jquery-turbolinks'
+gem 'masonry-rails'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
