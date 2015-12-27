@@ -78,6 +78,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Config for DEVISE
-  config.action_mailer.default_url_options = { host: ' titanio.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'yourhost.herokuapp.com' }
 
 end
