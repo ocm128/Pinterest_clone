@@ -24,6 +24,6 @@ module Pinterested
     config.active_record.raise_in_transactional_callbacks = true
 
     # filepicker cloud
-    config.filepicker_rails.api_key = "AClXKRASRQ6D5nhMXCUINz"
+    config.filepicker_rails.api_key = "yourfilepickerapikey"
   end
 end
