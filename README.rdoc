@@ -1,3 +1,3 @@
 == README
 
-Pinterest clone app built with Ruby on Rails, example of book "Learn Ruby on Rails For Web Development" by John Elder.
+Pinterest clone app built with Ruby on Rails, example of book "Learn Ruby on Rails For Web Development" by John Elder
